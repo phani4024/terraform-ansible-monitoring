@@ -1,0 +1,12 @@
+---
+- hosts: all
+  connection: ssh
+
+  tasks:
+    - name: copy script file
+      copy:
+        src: monitor.sh
+        dest: /home/ec2-user/
+
+    - name: run script
+      command: sh monitor.sh

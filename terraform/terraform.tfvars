@@ -1,0 +1,5 @@
+iname  = "monitor"
+ami_id = "ami-07a6f770277670015"
+itype  = "t2.micro"
+kname  = "admin_key"
+sg_id  = "sg-0b85d6634cd17d684"
