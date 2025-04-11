@@ -118,8 +118,8 @@ route:
 receivers:
   - name: 'slack-notifications'
     slack_configs:
-      - api_url: 'https://hooks.slack.com/services/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'  # Replace with your Slack webhook URL
-        channel: '#all-terraform-project'  # Replace with required Slack channel
+      - api_url: 'https://hooks.slack.com/services/'  # Replace with your Slack webhook URL
+        channel: '#project-name'  # Replace with required Slack channel
         send_resolved: true
 EOF
 
